@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #333;
+    transition: background-image 0.5s ease;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+.video-section {
+    margin-bottom: 20px;
+}
+
+video {
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.video-controls, .gallery-controls {
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.image-container {
+    margin: 20px 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+p {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+.instructions {
+    font-style: italic;
+    color: #555;
+}
+
+.city-theme {
+    background-image: url('https://images.unsplash.com/photo-1516321318423-7d6a78d56626');
+}

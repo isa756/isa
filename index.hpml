@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campo e Cidade</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Campo e Cidade</h1>
+        <div class="video-section">
+            <video id="mainVideo" width="600" controls>
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                Seu navegador não suporta vídeos.
+            </video>
+            <div class="video-controls">
+                <button id="playPauseBtn">Pausar</button>
+            </div>
+        </div>
+        <div class="gallery">
+            <div class="image-container">
+                <img id="mainImage" src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0" alt="Cidade">
+                <p id="imageDescription">Uma vibrante paisagem urbana com arranha-céus iluminados à noite.</p>
+            </div>
+            <div class="gallery-controls">
+                <button id="prevBtn">Anterior</button>
+                <button id="nextBtn">Próxima</button>
+                <button id="toggleThemeBtn">Alternar Tema</button>
+            </div>
+        </div>
+        <p class="instructions">Use as teclas de seta (← →) para navegar entre as imagens ou os botões abaixo.</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
